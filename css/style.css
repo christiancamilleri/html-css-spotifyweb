@@ -8,3 +8,36 @@ body {
     font-family: 'Fredoka', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+
+main {
+    display: flex;
+}
+
+main header {
+    width: 20%;
+    height: calc(100vh - 100px);
+
+    border: 1px solid black;
+    /* test */
+}
+
+main .main-centered {
+    width: calc(100vw - 20%);
+    height: calc(100vh - 100px);
+
+    border: 1px solid green;
+}
+
+main .main-centered .upgrade-bar {
+    height: 80px;
+
+    border: 1px solid green;
+    /* test */
+}
+
+footer {
+    height: 100px;
+
+    border: 1px solid red;
+    /* test */
+}
