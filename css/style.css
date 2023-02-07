@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family: 'Fredoka', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -14,15 +13,77 @@ main {
 }
 
 main header {
-    width: 20%;
+    width: 15%;
     height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background-color: black;
+    color: white;
+}
 
-    border: 1px solid black;
-    /* test */
+main header .header-container {
+    padding: 1em;
+}
+
+main header .header-container .logo img {
+    max-width: 200px;
+    max-height: 50px;
+    margin-bottom: 1em;
+    
+}
+
+main header .header-container .home-list {
+    color: white;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+main header .header-container .home-list li {
+    padding: 0.3em;
+}
+
+main header .header-container .home-list li img {
+    width: 7%;
+}
+
+main header .header-container .playlist .playlist-list {
+    list-style-type: none;
+}
+
+main header .header-container .playlist .playlist-list i{
+    font-size: 1.5em;
+}
+
+main header .header-container .playlist .playlist-list li {
+    padding: 0.6em 0;
+}
+
+main .footer-header {
+    padding: 1em;
+}
+
+main .footer-header .foot-text {
+    padding: 0.5em 0;
+}
+
+main .footer-header img {
+    width: 5%;
+}
+
+main .footer-header .name {
+    padding: 0.5em 0;
+}
+
+main .footer-header .name #profile {
+    border-radius: 50px;
+    width: 8%;
+    background-color: #808080;
 }
 
 main .main-centered {
-    width: calc(100vw - 20%);
+    width: calc(100vw - 15%);
     height: calc(100vh - 100px);
 
     border: 1px solid green;
