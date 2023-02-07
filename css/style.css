@@ -11,11 +11,12 @@ body {
 main {
     display: flex;
     color: #808387;
+    height: calc(100vh - 100px);
 }
 /* header */
 main header {
-    width: 15%;
-    height: calc(100vh - 100px);
+    width: 200px;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -119,8 +120,7 @@ main .footer-header .name #profile {
 /* main-centered */
 
 main .main-centered {
-    width: calc(100vw - 15%);
-    height: calc(100vh - 100px);
+    width: calc(100vw - 200px);
     
     overflow: scroll;
     background-color: #141922;
