@@ -125,7 +125,7 @@ main .main-centered {
     overflow: scroll;
     background-color: #141922;
 
-    border: 1px solid green;
+    position: relative;
 }
 
 /* upgrade-bar */
@@ -136,6 +136,9 @@ main .main-centered .upgrade-bar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
 
     background-color: rgba( 8, 11, 18, 0.5);
 
@@ -157,6 +160,7 @@ main .main-centered .upgrade-bar button {
 main .main-centered .menu-list {
     padding: 1em;
     font-size: 0.8em;
+    margin-top: 80px;
 }
 
 main .main-centered .menu-list ul{
@@ -166,6 +170,74 @@ main .main-centered .menu-list ul{
     color: ;
 
     list-style-type: none;
+}
+
+/* / menu list */
+
+/* blocco principale */
+
+main .main-centered .main-block {
+    padding: 1.5em;
+}
+
+/* sezione uno */
+
+main .main-centered .main-block section h2 {
+    color: white;
+    padding: 0.5em 0;
+}
+
+main .main-centered .main-block section #margin {
+    margin-bottom: 1em;
+}
+
+main .main-centered .main-block .recenti {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+
+main .main-centered .main-block .recenti .card {
+    width: calc(100% / 6 - 1em / 6 * 5);
+    height: 200px;
+    border: 1px solid red;
+    /* test */
+}
+
+/* /sezione uno */
+
+/* sezione due creati per te */
+
+main .main-centered .main-block .creati-per-te {
+    display: flex;
+    gap: 1em;
+
+    margin-top: 1em;
+}
+
+main .main-centered .main-block .creati-per-te .box {
+    width: calc(100% / 6 - 1em);
+    height: 200px;
+    border: 1px solid red;
+    /* test */
+}
+
+/* /sezione due creati per te */
+
+/* sezione 3 artisti popolari  */
+
+main .main-centered .main-block .popular-artist {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+main .main-centered .main-block .popular-artist .circle {
+    width: calc(100% / 6 - 1em);
+    height: 200px;
+
+    border: 1px solid red;
+    /* test */
 }
 
 
