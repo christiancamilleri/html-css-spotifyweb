@@ -199,17 +199,23 @@ main .main-centered .main-block .recenti {
 
 main .main-centered .main-block .recenti .card {
     width: calc(100% / 6 - 1em / 6 * 5);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5em;
-
-    border: 1px solid red;
-    /* test */
 }
 
 main .main-centered .main-block .recenti .card .card-img img {
     width: 100%;
+}
+
+main .main-centered .main-block .recenti .card .card-text {
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+main .main-centered .main-block .recenti .card .card-text b {
+    color: white;
+}
+
+main .main-centered .main-block .recenti .card .card-text div {
+    padding: 0.5em 0;
 }
 /* /sezione uno */
 
