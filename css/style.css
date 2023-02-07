@@ -230,11 +230,17 @@ main .main-centered .main-block .creati-per-te {
 
 main .main-centered .main-block .creati-per-te .box {
     width: calc(100% / 6 - 1em);
-    height: 200px;
-    border: 1px solid red;
-    /* test */
 }
 
+main .main-centered .main-block .creati-per-te .box .box-img img {
+    max-width: 100%;
+}
+
+main .main-centered .main-block .creati-per-te .box .box-text {
+    padding: 0.5em 0;
+    color: white;
+    text-align: center;
+}
 /* /sezione due creati per te */
 
 /* sezione 3 artisti popolari  */
