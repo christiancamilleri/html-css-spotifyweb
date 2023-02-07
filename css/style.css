@@ -310,7 +310,49 @@ footer .footer-left .left-command {
 
  /* footer center */ 
 
+ footer .footer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+
+ footer .footer-center .center-command {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 20px;
+ }
  
+ footer .footer-center .center-command i {
+    font-size: 1em;
+ }
+
+ footer .footer-center .center-command  .fa-circle-play {
+    font-size: 1.6em;
+ }
+
+ footer .footer-center .player {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+ }
+
+ footer .footer-center .player .track-bar {
+    width: 350px;
+    height: 4px;
+    background-color: rgba(90, 90, 90, 0.5);
+ }
+ 
+ footer .footer-center .player .track-bar .listened-track-bar {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(193 193 193);
+ }
+
+ /* /footer-centere */
 
 footer > div {
     width: 25%;
