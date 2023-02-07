@@ -240,10 +240,21 @@ main .main-centered .main-block .popular-artist .circle {
     /* test */
 }
 
+/* / sezione 3 artisti popolari */
+
+/* footer */
 
 footer {
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #282828;
+    
+}
 
+footer > div {
+    width: 25%;
+    height: 100px;
     border: 1px solid red;
-    /* test */
 }
