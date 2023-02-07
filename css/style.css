@@ -10,6 +10,7 @@ body {
 /* main */
 main {
     display: flex;
+    color: #808387;
 }
 /* header */
 main header {
@@ -20,13 +21,13 @@ main header {
     justify-content: space-between;
     
     background-color: black;
-    color: white;
 }
 
 main header .header-container {
     padding: 1em;
 }
 /* logo e lista home */
+
 main header .header-container .logo img {
     max-width: 200px;
     max-height: 50px;
@@ -35,7 +36,6 @@ main header .header-container .logo img {
 }
 
 main header .header-container .home-list {
-    color: white;
     list-style-type: none;
     margin-bottom: 1em;
 }
@@ -47,10 +47,31 @@ main header .header-container .home-list li {
 main header .header-container .home-list li img {
     width: 7%;
 }
+
 /* /logo e lista home  */
+
 /* playlist section */
+
 main header .header-container .playlist .playlist-list {
     list-style-type: none;
+}
+
+main header .header-container .playlist .playlist-list #first-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main header .header-container .playlist .playlist-list #plus {
+    height: 1.5em;
+    width: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5em;
+    color: black;
+    background-color: #a3a3a3;
 }
 
 main header .header-container .playlist .playlist-list i{
@@ -60,22 +81,31 @@ main header .header-container .playlist .playlist-list i{
 main header .header-container .playlist .playlist-list li {
     padding: 0.6em 0;
 }
+
 /* /playlist section */
+
 /* footer header */
+
 main .footer-header {
     padding: 1em;
 }
 
 main .footer-header .foot-text {
     padding: 0.5em 0;
+    display: flex;
+    gap: 10px;
 }
 
 main .footer-header img {
-    width: 5%;
+    width: 7%;
+    display: block;
 }
 
 main .footer-header .name {
     padding: 0.5em 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 main .footer-header .name #profile {
@@ -83,8 +113,11 @@ main .footer-header .name #profile {
     width: 8%;
     background-color: #808080;
 }
+
 /* /footer header */
+
 /* main-centered */
+
 main .main-centered {
     width: calc(100vw - 15%);
     height: calc(100vh - 100px);
@@ -94,7 +127,9 @@ main .main-centered {
 
     border: 1px solid green;
 }
+
 /* upgrade-bar */
+
 main .main-centered .upgrade-bar {
     height: 80px;
     background-color: transparent;
@@ -114,7 +149,26 @@ main .main-centered .upgrade-bar button {
     border: 1px solid white;
     
 }
+
 /* /upgrade bar */
+
+/* MENU-LIST */
+
+main .main-centered .menu-list {
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+main .main-centered .menu-list ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: ;
+
+    list-style-type: none;
+}
+
+
 footer {
     height: 100px;
 
