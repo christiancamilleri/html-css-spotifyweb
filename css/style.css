@@ -138,7 +138,7 @@ main .main-centered .upgrade-bar {
     align-items: center;
     position: fixed;
     right: 0;
-    left: 0;
+    left: 200px;
 
     background-color: rgba( 8, 11, 18, 0.5);
 
@@ -282,7 +282,7 @@ footer {
 
 /* footer-left */
 footer .footer-left {
-    height: 100%;
+    max-width: 300px;
     
     display: flex;
     align-items: center;
@@ -311,6 +311,9 @@ footer .footer-left .left-command {
  /* footer center */ 
 
  footer .footer-center {
+    min-width: 200px;
+    max-width: 500px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -352,11 +355,29 @@ footer .footer-left .left-command {
     background-color: rgb(193 193 193);
  }
 
- /* /footer-centere */
+ /* /footer-center */
 
-footer > div {
-    width: 25%;
-    height: 100px;
-    border: 1px solid red;
-    /* test */
+ /* footer-right */
+footer .footer-right {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    padding:1em;
+}
+
+footer .footer-right .vol-bar {
+    width: 100px;
+    height: 4px;
+    
+    background-color: rgba(90, 90, 90, 0.5);
+}
+
+footer .footer-right .vol-bar .vol-bar-active {
+    width: 20%;
+    height: 100%;
+
+    background-color: rgb(193 193 193);
 }
