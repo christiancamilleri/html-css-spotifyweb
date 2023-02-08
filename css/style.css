@@ -42,10 +42,44 @@ main button:hover {
     cursor: pointer;
 }
 
-.green:hover {
-    background-color: rgba(0, 255, 0, 1);
+
+.transform:hover .point {
+    display: block;
 }
 
+.transform:hover .timeline-point {
+    display: block;
+}
+/* /hover */
+
+/* common */
+.point {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    
+    margin: -2px 29px;
+    
+    display: none;
+    
+    background-color: white;
+
+}
+
+.timeline-point {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+
+    margin: -3px 73px;
+
+    display: none;
+    
+    background-color: white;
+
+}
 
 /* header */
 main header {
@@ -310,6 +344,8 @@ footer {
     justify-content: space-between;
 
     color: white;
+
+    position: relative;
     
     background-color: #282828;    
 }
@@ -446,6 +482,7 @@ footer .footer-right .vol-bar {
 footer .footer-right .vol-bar .vol-bar-active {
     width: 20%;
     height: 100%;
+    position: relative;
 
     background-color: rgb(193 193 193);
 }
