@@ -97,8 +97,8 @@ main button:hover {
 .play-img i {
     position: absolute;
 
-    left: 55px;
-    top: 55px;
+    left: 44%;
+    top: 40%;
 
     display: none;
 
@@ -300,10 +300,11 @@ main .main-centered .main-block .recenti {
 
 main .main-centered .main-block .recenti .card {
     width: calc(100% / 6 - 1em / 6 * 5);
-
-    position: relative;
 }
 
+main .main-centered .main-block .recenti .card .card-img {
+    position: relative;
+}
 
 main .main-centered .main-block .recenti .card .card-img img {
     width: 100%;
@@ -335,6 +336,9 @@ main .main-centered .main-block .creati-per-te {
 main .main-centered .main-block .creati-per-te .box {
     width: calc(100% / 6 - 1em);
 
+}
+
+main .main-centered .main-block .creati-per-te .box .box-img {
     position: relative;
 }
 
