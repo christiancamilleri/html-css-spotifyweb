@@ -139,6 +139,21 @@ main header .header-container .home-list {
 
 main header .header-container .home-list li {
     padding: 0.3em;
+
+    position: relative;
+}
+
+main header .header-container .home-list li.active::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: -15px;
+
+    height: 30px;
+    width: 4px;
+
+    background-color: #c6f46b;
 }
 
 main header .header-container .home-list li img {
