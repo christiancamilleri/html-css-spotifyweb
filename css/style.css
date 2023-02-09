@@ -272,6 +272,25 @@ main .main-centered .menu-list ul{
     list-style-type: none;
 }
 
+main .main-centered .menu-list ul li{
+    position: relative;
+}
+
+main .main-centered .menu-list ul li.active::before {
+    content: "";
+
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+
+    width: 30px;
+    height: 3px;
+
+    transform: translate(-50%);
+
+    background-color: #c6f46b;
+}
+
 /* / menu list */
 
 /* blocco principale */
