@@ -15,9 +15,13 @@ main {
 }
 
 /*  hover */
-main img:hover {
+.play-img:hover {
     opacity: 0.5;
     cursor: pointer;
+}
+
+.play-img:hover i {
+    display: inline-block;
 }
 
 .text-white:hover {
@@ -50,6 +54,11 @@ main button:hover {
 .transform:hover .timeline-point {
     display: block;
 }
+
+.vol-bar:hover .green-line {
+    background-color: green;
+}
+
 /* /hover */
 
 /* common */
@@ -79,6 +88,23 @@ main button:hover {
     
     background-color: white;
 
+}
+
+.play-img {
+    display: relative;
+}
+
+.play-img .play {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    /* display: none; */
+
+    color: white;
+
+    font-size: 2em;
 }
 
 /* header */
@@ -204,9 +230,12 @@ main .main-centered .upgrade-bar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    width: calc(100% - 200px);
+    
     position: fixed;
+    top: 0;
     right: 0;
-    left: 200px;
 
     background-color: rgba( 8, 11, 18, 0.5);
 
@@ -234,6 +263,7 @@ main .main-centered .menu-list {
 main .main-centered .menu-list ul{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     color: ;
 
@@ -261,6 +291,7 @@ main .main-centered .main-block section #margin {
 
 main .main-centered .main-block .recenti {
     display: flex;
+    flex-wrap: wrap;
     gap: 1em;
     margin-bottom: 1.5em;
 }
@@ -268,6 +299,7 @@ main .main-centered .main-block .recenti {
 main .main-centered .main-block .recenti .card {
     width: calc(100% / 6 - 1em / 6 * 5);
 }
+
 
 main .main-centered .main-block .recenti .card .card-img img {
     width: 100%;
@@ -368,7 +400,7 @@ footer .footer-left img {
 }
 
 footer .footer-left .track-info {
-    margin-right: 40px;
+    padding-right: 20px;
 }
 
 footer .footer-left .track-info span {
@@ -377,7 +409,7 @@ footer .footer-left .track-info span {
 
 footer .footer-left .left-command {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     gap: 10px;
     color: rgba(255, 255, 255, 0.5);
 }
