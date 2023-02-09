@@ -94,17 +94,13 @@ main button:hover {
 
 }
 
-.play-img {
-    display: relative;
-}
-
-.play-img .play {
+.play-img i {
     position: absolute;
 
-    left: 50%;
-    top: 50%;
+    left: 55px;
+    top: 55px;
 
-    /* display: none; */
+    display: none;
 
     color: white;
 
@@ -338,6 +334,8 @@ main .main-centered .main-block .creati-per-te {
 
 main .main-centered .main-block .creati-per-te .box {
     width: calc(100% / 6 - 1em);
+
+    position: relative;
 }
 
 main .main-centered .main-block .creati-per-te .box .box-img img {
