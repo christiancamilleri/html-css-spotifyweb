@@ -20,8 +20,9 @@ main {
     cursor: pointer;
 }
 
-.play-img:hover i {
+.play-img:hover > i {
     display: inline-block;
+    opacity: none;
 }
 
 .text-white:hover {
@@ -104,7 +105,10 @@ footer .footer-center .player .timeline .track-bar:hover > .green {
 
     color: white;
 
-    font-size: 2em;
+    font-size: 3em;
+
+    opacity: 1;
+
 }
 
 /* /common */
@@ -222,6 +226,7 @@ main .footer-header .name {
     display: flex;
     gap: 10px;
     align-items: center;
+    color: white;
 }
 
 main .footer-header .name #profile {
@@ -251,6 +256,8 @@ main .main-centered .upgrade-bar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    padding-right: 1em;
 
     width: calc(100% - 200px);
     
@@ -640,3 +647,4 @@ footer .footer-right .vol-bar .vol-bar-active {
         display: none;
     }
 }
+
