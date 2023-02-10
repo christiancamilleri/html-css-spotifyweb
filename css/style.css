@@ -98,8 +98,10 @@ footer .footer-center .player .timeline .track-bar:hover > .green {
 .play-img i {
     position: absolute;
 
-    left: 33%;
-    top: 30%;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
 
     display: none;
 
@@ -347,6 +349,7 @@ main .main-centered .main-block .recenti {
 
 main .main-centered .main-block .recenti .card {
     width: calc(100% / 6 - 20px / 6 * 5);
+
 }
 
 main .main-centered .main-block .recenti .card .card-img {
@@ -648,3 +651,13 @@ footer .footer-right .vol-bar .vol-bar-active {
     }
 }
 
+@media screen and (max-width: 540px) {
+    .volum {
+        display: none;
+    }
+    
+    footer .footer-right .footer-right-command {
+        flex-direction: column;
+    }
+    
+}
