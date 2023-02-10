@@ -15,7 +15,7 @@ main {
 }
 
 /*  hover */
-.play-img:hover {
+.play-img:hover img {
     opacity: 0.5;
     cursor: pointer;
 }
@@ -98,8 +98,8 @@ footer .footer-center .player .timeline .track-bar:hover > .green {
 .play-img i {
     position: absolute;
 
-    left: 44%;
-    top: 40%;
+    left: 33%;
+    top: 30%;
 
     display: none;
 
