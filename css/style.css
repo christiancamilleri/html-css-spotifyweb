@@ -72,8 +72,8 @@ footer .footer-center .player .timeline .track-bar:hover > .green {
     width: 10px;
     border-radius: 50%;
     position: absolute;
-    
-    margin: -2px 29px;
+    top: -55%;
+    left: 83%;
     
     display: none;
     
@@ -87,7 +87,8 @@ footer .footer-center .player .timeline .track-bar:hover > .green {
     border-radius: 50%;
     position: absolute;
 
-    margin: -3px 73px;
+    top: -50%;
+    left: 95%;
 
     display: none;
     
@@ -518,6 +519,8 @@ footer .footer-left .left-command {
  footer .footer-center .player .timeline {
     flex-grow: 1;
 
+    position: relative;
+
  }
 
  footer .footer-center .player .timeline .track-bar {
@@ -561,6 +564,7 @@ footer .footer-right .footer-right-command {
 
 footer .footer-right .volum {
     flex-grow: 1;
+    position: relative;
 }
 
 footer .footer-right .vol-bar {
